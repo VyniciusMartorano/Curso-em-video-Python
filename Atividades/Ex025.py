@@ -1,0 +1,7 @@
+nome=str(input('Digite seu nome:'))
+print(nome.strip())
+print(nome.upper().strip())
+print(nome.lower().strip())
+print('O nome completo tem ',len(nome.strip()),'letras ao todo.')
+x=nome.split()
+print('o primeiro nome tem',(len(x[0])),'letras ao todo.')
